@@ -33,6 +33,7 @@ class BmiCalculator(QWidget):
 
         self.setLayout(grid)
 
+    # BMI Calculation
     def calculate_bmi(self):
         height = float(self.height_line_edit.text())
         weight = int(self.weight_line_edit.text())
